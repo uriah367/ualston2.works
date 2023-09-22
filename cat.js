@@ -1,12 +1,12 @@
 console.log("wooaaa")
 
-var i = 1;                
+var cater = 1;                
 
 function cat() {         
   setTimeout(function() {  
 
-    cat++;                   
-    if (cat < 10) { 
+    cater++;                   
+    if (cater < 10) { 
  var cats = [
         "black cat",
         "void cat",
@@ -17,7 +17,7 @@ function cat() {
     //destructive coad!
 
     document.title = cats[Math.ceil((Math.random()*cats.length-1))];         
-      myLoop();             
+      cat();             
     }                      
   }, 1000)
 }
