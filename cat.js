@@ -1,8 +1,13 @@
 console.log("wooaaa")
 
-while (true) {
-	setTimeout(1000)
-    var cats = [
+var i = 1;                
+
+function cat() {         
+  setTimeout(function() {  
+
+    cat++;                   
+    if (cat < 10) { 
+ var cats = [
         "black cat",
         "void cat",
         "cat black",
@@ -11,5 +16,10 @@ while (true) {
 
     //destructive coad!
 
-    document.title = cats[Math.ceil((Math.random()*cats.length-1))];
+    document.title = cats[Math.ceil((Math.random()*cats.length-1))];         
+      myLoop();             
+    }                      
+  }, 1000)
 }
+
+cat();               
