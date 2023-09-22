@@ -1,7 +1,7 @@
 console.log("wooaaa")
 
 while (true) {
-	wait(1000)
+	setTimeout(1000)
     var cats = [
         "black cat",
         "void cat",
