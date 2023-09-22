@@ -1,3 +1,5 @@
+console.log("wooaaa")
+
 while (true) {
 	wait(1000)
     var cats = [
