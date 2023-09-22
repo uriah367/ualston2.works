@@ -1,13 +1,8 @@
 console.log("wooaaa")
 
-var cater = 1;                
-
 function cat() {         
   setTimeout(function() {  
-
-    cater++;                   
-    if (cater < 10) { 
- var cats = [
+    var cats = [
         "black cat",
         "void cat",
         "cat black",
@@ -17,8 +12,7 @@ function cat() {
     //destructive coad!
 
     document.title = cats[Math.ceil((Math.random()*cats.length-1))];         
-      cat();             
-    }                      
+      cat();                             
   }, 1000)
 }
 
